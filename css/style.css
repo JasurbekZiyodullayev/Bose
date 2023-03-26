@@ -198,3 +198,31 @@ a{
 filter: blur(5px);
 }
 
+
+/**************************************** SLIDESHOW STYLE **********************************/
+
+.slideshow-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 32px;
+    margin: 120px 0;
+    position: relative;
+}
+
+.prev{
+    position: absolute;
+    top: 50%;
+    margin-top: -32px;
+    cursor: pointer;
+    left: -58px;
+}
+.next{
+    position: absolute;
+    top: 50%;
+    margin-top: -32px;
+    cursor: pointer;
+    right: -58px;
+}
+
+
