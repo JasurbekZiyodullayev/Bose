@@ -317,7 +317,7 @@ filter: blur(5px);
 #premium{
     background-image: url("../assets/icons/preimum-union-left.svg"), url("../assets/icons/preimum-union-right.svg");
     background-repeat: no-repeat, no-repeat;
-    background-position: 0 125%, 100% 125%;
+    background-position: 0 125%, 100% 115%;
 }
 
 .premium-text{
@@ -371,3 +371,72 @@ filter: blur(5px);
     top: 21%;
 }
 
+/************************************  BATTERY SECTION STYLE **********************************/
+
+#battery{
+    margin: 100px 0 149px;
+}
+
+.battery-wrap{
+    display: flex;
+    min-height: 779px;
+}
+.battery-left{
+    max-width: 558px;
+    min-height: 779px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.battery-left h2{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 72px;
+    margin-bottom: 16px;
+}
+.battery-left p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.battery-right{
+    width: 668px;
+    overflow-x: hidden;
+    position: relative;
+}
+.battery-right img{
+    height: 100%;
+    position: absolute;
+    right: -50px;
+    top: 0;
+}
+
+/**************************************** RELATED SECTION STYLE ***************************/
+
+#related{
+    min-height: 1000px;
+    background-color: #F9F9F9;
+    box-sizing: border-box;
+}
+.related-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0 40px;
+}
+.related-text h3{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+}
+.related-show{
+    width: 190px;
+    height: 48px;
+    border-radius: 50px;
+    border: 2px solid #191919;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
