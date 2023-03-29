@@ -310,3 +310,64 @@ filter: blur(5px);
     text-align: justify;
     box-sizing: border-box;
 }
+
+
+/************************************* PREMIUM SECTION STYLE ************************************/
+
+#premium{
+    background-image: url("../assets/icons/preimum-union-left.svg"), url("../assets/icons/preimum-union-right.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0 125%, 100% 125%;
+}
+
+.premium-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 88px;
+}
+.premium-text p{
+    max-width: 558px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 28px;
+}
+.premium-text h2{
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.premium-headphone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.premium-plus{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+}
+.premium-plus:nth-child(2){
+    left: 68%;
+    top: 75%;
+}
+.premium-plus:nth-child(3){
+    left: 34%;
+    top: 72%;
+}
+.premium-plus:nth-child(4){
+    left: 25%;
+    top: 63%;
+}
+.premium-plus:nth-child(5){
+    left: 38%;
+    top: 15%;
+}
+.premium-plus:nth-child(6){
+    left: 64%;
+    top: 21%;
+}
+
