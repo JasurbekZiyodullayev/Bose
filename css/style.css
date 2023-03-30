@@ -440,3 +440,140 @@ filter: blur(5px);
     font-weight: 700;
     cursor: pointer;
 }
+
+.related-cards__wrap{
+    margin: 40px 0 269px 12.2%;
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 36px;
+    overflow-x: auto;   
+    cursor: pointer;
+}
+.related-cards__wrap::-webkit-scrollbar {
+    display: none;
+}
+
+.related-cards{
+    min-width: 323px;
+    height: 495px;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 50px 38px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.related-cards h4{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #000;
+    margin-bottom: 17px;
+}
+.related-cards img{
+    width: 155px;
+    height: 214px;
+    align-self: center;
+    margin-bottom: 37px;
+}
+.related-cards p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #000;
+    opacity: 0.3;
+}
+
+/************************************* FOOTER STYLE *******************************************/
+
+.footer-body{
+    width: 100%;
+    height: 520px;
+    background-color: #191919;
+}
+.footer-body .container{
+    height: 100%;
+}
+.footer-body-wrap{
+    display: flex;
+    height: 100%;
+}
+.footer-body__left{
+    position: relative;
+    width: 607px;
+}
+.footer-body__left img{
+    position: absolute;
+    bottom: 0;
+    z-index: 99;
+}
+.footer-body__right{
+    margin-left: 41px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+     width: 461px;
+}
+.footer-body__right h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57px;
+    color: #fff;
+}
+.footer-body__right p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+    margin: 16px 0;
+}
+.footer-body__buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-body__buttons button:nth-child(1){
+    width: 255px;
+    height: 48px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    color:  #7B7B7B;
+    cursor: pointer;
+}
+.footer-body__buttons button:nth-child(2){
+    width: 190px;
+    height: 48px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    color:  #191919;
+    cursor: pointer;
+}
+
+.footer-foot{
+    height: 120px;
+    background-color: #000;
+}
+.footer-foot .container{
+    height: 100%;
+}
+.footer-menu{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.footer-ul{
+    display: flex;
+    column-gap: 32px;
+}
+.footer-logo{
+    margin-right: 48px;
+}
+.footer-link{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
